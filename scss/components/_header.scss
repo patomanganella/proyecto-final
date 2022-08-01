@@ -1,0 +1,28 @@
+
+#navbar-1{
+    background-color:#f1e6b6;
+}
+
+#header {
+     color: black;
+     text-decoration: none;
+    
+     
+  
+    &:hover{
+        background-color:  #E6A16F;
+        color: black;
+        border-radius: 50%;
+        transition: all 0.75s;
+      }
+   }
+  
+ 
+
+body{
+    background-color: #E6A16F
+}
+
+.navbar a{ 
+    color: black;
+}

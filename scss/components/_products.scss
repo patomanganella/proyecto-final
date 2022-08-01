@@ -1,0 +1,26 @@
+
+
+.grid-container-productos {
+  padding: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;  
+  gap: 20px;
+  justify-content: space-evenly;
+  text-align: center;
+  }
+  
+  .col_one_third img {
+    width: 350px;
+    height: 300px;
+    object-fit: cover;
+
+    &:hover {
+      transform: scale(1.2);
+
+    }
+
+  }
+  
+ 
+  

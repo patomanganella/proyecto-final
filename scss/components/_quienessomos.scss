@@ -1,0 +1,59 @@
+
+
+
+.trabajamos {
+    margin: 1px;
+    padding: 20px;
+    font-size: large;
+  }
+  
+.valores{
+  display: flex;
+  justify-content: center;
+  
+}
+  .card-vision {
+    position: absolute;
+    top: 20%;
+  }
+  
+  .card-mision {
+    position: absolute;
+    top: 60%;
+  }
+
+  .slogan-h1 {
+  padding: 40px;
+        
+  }
+
+  .container{
+    padding: 30px;
+  }
+
+.container-img-valo{
+ padding: 50px;
+ display: flex;
+ justify-content: space-between;
+ gap: 10px;
+ 
+ }
+
+.img-svg{
+  width: 200px;
+  height: 200px;
+  border-top: solid #f8f2d9 ;
+  border-bottom: solid #f8f2d9 ;
+}
+
+.parrafo{
+ position: relative;
+ top: 50%;
+ color:  #f8f2d97a;
+ font-size: medium;
+
+
+ &:hover{
+  color: black ;
+ }
+}

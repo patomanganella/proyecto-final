@@ -1,0 +1,246 @@
+
+@media only screen and(max-width: 460px) {
+#header {
+  color: black;
+  text-decoration: none;
+ 
+  
+
+ &:hover{
+     background-color: transparent;
+     color: black;     
+     transition: none;
+   }
+}
+
+}
+
+
+
+@media only screen and(max-width: 860px) {
+    .imagenes-galeria {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: 2;
+      margin: auto;
+      gap: 20px;
+   
+    }
+  }
+  @media only screen and(max-width: 468px) {
+   .grid-galeria-1, .grid-galeria-2, .grid-galeria-3{
+    border: solid 8px #f8f2d9;
+    width: 150px;
+    height: 120px;
+   }
+
+   }
+
+  @media only screen and (max-width: 860px) {
+    .container-img-valo{    
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: 3;
+      justify-content: center;
+      gap: 50px;
+  }
+    
+   }
+  
+
+
+  @media only screen and (max-width: 750px) {
+    .card-title, .card-text {
+      color: black;
+    }
+  }
+  
+  @media only screen and (max-width: 860px) {
+    .grid-ideas {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      grid-template-rows: repeat(3,800px);
+      gap: 20px;      
+      align-content: center;
+      
+      
+    }
+  }
+
+  @media only screen and (max-width: 860px) {
+    .figure, .figure-1, .figure-2, .figure-3, .figure-4 {
+      width: 100%;
+      height: 600px;
+      object-fit: cover;
+      padding: 15px;
+      border-top: solid transparent;
+      border-bottom: solid transparent;
+  
+      }
+   }
+  
+  @media only screen and (max-width: 460px) {
+    .grid-ideas {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      grid-template-rows: repeat(3,400px);
+      gap: 30px;      
+      align-content: center;
+      
+      
+    }
+  }
+  
+  @media only screen and (max-width: 460px) {
+    .figure, .figure-1, .figure-2, .figure-3, .figure-4 {
+      width: 100%;
+      height: 350px;
+      object-fit: cover;
+      padding: 15px;
+      border-top: solid transparent;
+      border-bottom: solid transparent;
+    
+  
+      }
+   }
+
+   @media only screen and (max-width: 860px) {
+    .animacion-h3 {
+     text-align: center;
+  
+      }
+   }
+
+   @media only screen and (max-width: 460px) {
+    .animacion-h3 {
+     text-align: center;
+  
+      }
+   }
+
+
+
+
+
+
+@media only screen and (max-width: 750px) {
+  .consultas-ideas{
+    
+    border-top: solid #f8f2d9;
+    border-bottom: solid #f8f2d9;
+    padding: 3px;
+    color: black;  
+    font-size:small;
+  
+  }
+  }
+
+
+  @media only screen and (max-width: 860px) {
+    .grid-container-productos {
+      padding: 50px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;  
+      gap: 50px;
+      text-align: center;
+      
+      }
+    }
+    
+    @media only screen and (max-width: 860px) {
+    .col_one_third img {
+      width: 250px;
+      height: 200px;
+      object-fit: cover;;
+  
+       }
+    }
+  
+
+  @media only screen and (max-width: 468px) {
+    .marcas-home{
+      padding-bottom: 30px;
+      display: grid;
+      grid-template-columns: 1;
+      grid-template-rows: 10;
+      gap: 20px;
+      justify-content: center;
+    
+    }
+  }
+
+  @media only screen and (max-width: 750px) {
+  .marcas-home img{
+    object-fit: cover;
+    height: 150px;
+    width: 150px;
+  }
+}
+
+
+@media only screen and (max-width: 468px) {
+  .container-img{
+    padding: 50px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: 5 ;
+    gap: 20px;
+   
+  
+  }
+}
+
+
+@media only screen and (max-width: 468px) { 
+.img-svg-1, .img-svg-2{
+  width: 200px;
+  height: 200px; 
+  border-top: transparent solid 3px;
+  border-bottom: #f8f2d9 solid 3px;
+  border-right: #f8f2d9 solid 3px;
+  border-left: #f8f2d9 solid 3px;
+}
+}
+
+
+
+
+
+@media only screen and (max-width: 750px) { 
+  .img-svg-1, .img-svg-2{
+    width: 200px;
+    height: 200px; 
+    border-top: #f8f2d9 solid 3px;
+    border-bottom: #f8f2d9 solid 3px;
+    border-right: #f8f2d9 solid 3px;
+    border-left: #f8f2d9 solid 3px;
+  }
+  }
+  
+ 
+@media only screen and (max-width: 860px){
+
+.marcas-h5-1, .marcas-h5-2{
+  text-decoration: none;
+  font-size: medium;
+  border-top: solid 5px none;
+  
+  &:hover{
+    color: #f8f2d9;
+  }
+}
+}
+
+@media only screen and (max-width: 460px){
+
+  .marcas-h5-1, .marcas-h5-2{
+    text-decoration: none;
+    font-size: medium;
+    border-top: solid 5px transparent;
+    
+    &:hover{
+      color: #f8f2d9;
+    }
+  }
+  }

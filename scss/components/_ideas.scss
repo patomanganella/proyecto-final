@@ -1,0 +1,109 @@
+
+
+.ideas-h2{
+  padding: 20px;
+  font-size: medium;
+  text-align: center;
+  color: black;
+  border: solid #f8f2d9 ;
+  &:hover{
+    color: #f8f2d9;
+  }
+ 
+}
+
+.grid-ideas {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3,800px);
+    gap: 50px;
+    padding: 2%;
+   
+
+    &:hover{
+      color: #f8f2d9;
+    
+    }
+  }
+  
+  .figure {
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+    padding: 15px;
+    border-top: solid #f8f2d9;
+    border-bottom: solid #f8f2d9;
+
+ 
+  
+  }
+
+  .figure-1{
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+    padding: 15px;
+    border-top: solid #f8f2d9;
+    border-bottom: solid #f8f2d9;
+
+  }
+
+  .figure-2{
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+    padding: 15px;
+    border-top: solid #f8f2d9;
+    border-bottom: solid #f8f2d9;    
+
+  }
+
+  .figure-3{
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+    padding: 15px;
+    border-top: solid #f8f2d9;
+    border-bottom: solid #f8f2d9;
+  }
+
+  .figure-4{
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+    padding: 15px;
+    border-top: solid #f8f2d9;
+    border-bottom: solid #f8f2d9;
+
+   
+  }
+.animacion-h3:hover{
+  color: black;
+}
+
+.consultas-ideas{
+position: relative;
+top: 38%;
+text-decoration: none;
+padding: 100px;
+
+border-top: solid #f8f2d9;
+border-bottom: solid #f8f2d9;
+color: black;
+font-size: larger;
+animation-name: mianimacion;
+animation-duration: 0s;
+animation-iteration-count: infinite;
+&:hover{
+  background-color: #423b1f34;
+  color: #f8f2d9;
+}
+
+}
+
+@keyframes mianimacion {
+  0% {background-color:#E6A16F};
+   100% {background-color:#f8f2d9};
+   
+}
+  
