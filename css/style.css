@@ -15,6 +15,7 @@
 
 body {
   background-color: #E6A16F;
+  cursor: url(../cursor/cursor.jpg), auto;
 }
 
 .navbar a {
